@@ -9,8 +9,7 @@ Para que a aplicação funcione corretamente, é necessário ter as seguintes te
 - **Docker**  
 - **WSL (Windows Subsystem for Linux)**  
 - **Laravel**  
-- **MySQL**  
-- **Bootstrap**  
+- **MySQL** 
 
 ## Funcionalidades
 
@@ -23,8 +22,9 @@ Para que a aplicação funcione corretamente, é necessário ter as seguintes te
 ## Tecnologias Utilizadas
 
 - Laravel
-- Bootstrap
+- PHP
 - MySQL
+- Docker
 
 ## Como Executar o Projeto
 
