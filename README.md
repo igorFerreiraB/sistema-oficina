@@ -1,7 +1,15 @@
-<<<<<<< HEAD
 # Sistema de Gerenciamento de Peças de Carros
 
 Um sistema simples para gerenciar peças de carros, desenvolvido em Laravel. Inclui funcionalidades de CRUD (Create, Read, Update, Delete) para adicionar, editar, visualizar e excluir peças.
+
+## 🚨 Requisitos para Rodar a Aplicação
+
+Para que a aplicação funcione corretamente, é necessário ter as seguintes tecnologias instaladas e configuradas:
+
+- **Docker**  
+- **WSL (Windows Subsystem for Linux)**  
+- **Laravel**  
+- **MySQL** 
 
 ## Funcionalidades
 
@@ -14,79 +22,46 @@ Um sistema simples para gerenciar peças de carros, desenvolvido em Laravel. Inc
 ## Tecnologias Utilizadas
 
 - Laravel
-- Bootstrap
+- PHP
 - MySQL
+- Docker
 
 ## Como Executar o Projeto
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/sistema-pecas-carros.git
-=======
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+   git clone https://github.com/igorFerreiraB/sistema-oficina
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Imagens do Projeto
 
-## About Laravel
+### Página Inicial (Home)
+- **Descrição**: A página inicial (Home) do sistema, onde são listadas as peças de carros cadastradas.
+![image](https://github.com/user-attachments/assets/3fbcac80-97c7-49ae-86d6-37c21d06b4bd)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### Adicionar Novo Produto
+- **Descrição**: O botão "Adicionar", que leva ao formulário de cadastro de novas peças.
+![image](https://github.com/user-attachments/assets/e82b639c-248b-4523-8fca-d6f33808e74d)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Formulário de Adição de Produto
+- **Descrição**: O formulário de adição de um novo produto, com o botão "Salvar".
+![image](https://github.com/user-attachments/assets/0aa09e07-5634-49a3-9c1f-2d739aa42951)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Produto Adicionado na Home
+- **Descrição**: O produto recém-adicionado na página inicial.
+![image](https://github.com/user-attachments/assets/d9534b52-4a6d-4418-833f-126325d35239)
 
-## Learning Laravel
+### Editar Produto
+- **Descrição**: O botão "Editar" de um produto específico.
+![image](https://github.com/user-attachments/assets/f6b205ce-af52-4641-b1e8-dab8c3cfed3b)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Formulário de Edição de Produto
+- **Descrição**: O formulário de edição de um produto, com as alterações feitas no preço (de R$ 1099.99 para R$ 1199.99) e na quantidade (de 4 para 3), e o botão "Atualizar".
+![image](https://github.com/user-attachments/assets/0a9a6710-fa09-43d8-8b86-9da684ba9154)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### Produto Atualizado na Home
+- **Descrição**: O produto atualizado na página inicial, com as alterações feitas no preço e na quantidade.
+![image](https://github.com/user-attachments/assets/c323f0e8-f92e-44c8-bf61-21e440ccb53c)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
->>>>>>> 413f8af (Primeiro commit: Inicialização do projeto)
+### Excluir Produto
+- **Descrição**: O botão "Excluir" de um produto específico.
+![liberdade(4)](https://github.com/user-attachments/assets/55cf2e7d-63c3-40c4-a77e-957c4fa2da47)
