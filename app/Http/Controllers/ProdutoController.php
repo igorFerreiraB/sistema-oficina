@@ -66,14 +66,21 @@ class ProdutoController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            'nome'=> 'required',
-            'descricao' => 'nulltable',
+            'nome' => 'required',
+            'descricao' => 'nullable',
             'preco' => 'required|numeric',
             'quantidade' => 'required|integer',
         ]);
-
+    
         $produto = Produto::findOrFail($id);
-        $produto->update($request->all());
+    
+        $produto->update([
+            'nome' => $request->nome,
+            'descricao' => $request->descricao,
+            'preco' => $request->preco,
+            'quantidade' => $request->quantidade,
+        ]);
+    
         return redirect()->route('produtos.index')->with('success', 'Produto atualizado com sucesso!');
     }
 
