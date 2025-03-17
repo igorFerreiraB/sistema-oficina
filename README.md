@@ -39,7 +39,7 @@ Para que a aplicação funcione corretamente, é necessário ter as seguintes te
 ![image](https://github.com/user-attachments/assets/3fbcac80-97c7-49ae-86d6-37c21d06b4bd)
 
 ### Adicionar Novo Produto
-- **Descrição**: O botão "Adicionar Produto", que leva ao formulário de cadastro de novas peças.
+- **Descrição**: O botão "Adicionar", que leva ao formulário de cadastro de novas peças.
 ![image](https://github.com/user-attachments/assets/e82b639c-248b-4523-8fca-d6f33808e74d)
 
 ### Formulário de Adição de Produto
