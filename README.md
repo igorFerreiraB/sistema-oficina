@@ -36,6 +36,11 @@ Para que a aplicação funcione corretamente, é necessário ter as seguintes te
 ![image](https://github.com/user-attachments/assets/e82b639c-248b-4523-8fca-d6f33808e74d)
 ![image](https://github.com/user-attachments/assets/0aa09e07-5634-49a3-9c1f-2d739aa42951)
 ![image](https://github.com/user-attachments/assets/d9534b52-4a6d-4418-833f-126325d35239)
-![liberdade(1)](https://github.com/user-attachments/assets/f7c6f48f-ea88-44be-a81d-fa1376b59224)
-![image](https://github.com/user-attachments/assets/81588f79-44c9-4e28-a230-ce89644b3855)
+![image](https://github.com/user-attachments/assets/f6b205ce-af52-4641-b1e8-dab8c3cfed3b)
+![image](https://github.com/user-attachments/assets/0a9a6710-fa09-43d8-8b86-9da684ba9154)
+![image](https://github.com/user-attachments/assets/c323f0e8-f92e-44c8-bf61-21e440ccb53c)
+![liberdade(4)](https://github.com/user-attachments/assets/55cf2e7d-63c3-40c4-a77e-957c4fa2da47)
+
+
+
 
