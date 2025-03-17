@@ -31,3 +31,5 @@ Para que a aplicação funcione corretamente, é necessário ter as seguintes te
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/sistema-pecas-carros.git
+   
+![image](https://github.com/user-attachments/assets/3fbcac80-97c7-49ae-86d6-37c21d06b4bd)
