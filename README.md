@@ -30,7 +30,7 @@ Para que a aplicação funcione corretamente, é necessário ter as seguintes te
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/sistema-pecas-carros.git
+   git clone https://github.com/igorFerreiraB/sistema-oficina
 
 ## Imagens do Projeto
 
